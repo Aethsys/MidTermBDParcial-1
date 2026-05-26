@@ -33,4 +33,12 @@ https://github.com/pszponder/docker_postgres-pgadmin/blob/main/docker-compose.ya
 
 4 - Crear .env con los valores o modificar las estructura del docker compose para lo requerido
 
-5 - Probar la conexion a PGadmin y seguir con los documentos .sql
+5 - Levantar servicio de Docker configurado 
+
+Docker compose up -d
+
+6 - Verificar estado de los contenedores 
+
+Docker ps
+
+7 - Probar la conexion por PGadmin
